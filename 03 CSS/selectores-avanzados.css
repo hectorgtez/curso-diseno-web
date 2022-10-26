@@ -1,0 +1,20 @@
+/* Selector por descendencia directa */
+div > p {
+  font-size: 20px;
+}
+
+/* Selector por atribuitos */
+input[type] {}
+
+input[type="text"] {}
+
+/* Herencia */
+body {
+  font-size: 20px;
+  color: blue;
+}
+
+article {
+  font-size: 16px;
+  color: black;
+}
