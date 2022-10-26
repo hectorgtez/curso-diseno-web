@@ -1,0 +1,5 @@
+.fondo {
+  width: 500px;
+  height: 300px;
+  background: linear-gradient(to bottom, #FFB76B 0%, #FFA73D 50%, #FF7C00 51%, #FF7F04 100%);
+}
