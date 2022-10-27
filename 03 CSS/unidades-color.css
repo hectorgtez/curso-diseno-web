@@ -1,0 +1,25 @@
+.caja {
+  width: 200px;
+  height: 200px;
+
+  /* Palabras clave */
+  background: lightskyblue;
+
+  /* RGB Decimal */
+  background: rgb(50, 139, 240);
+
+  /* RGB Porcentual */
+  background: rgb(84%, 15%, 24%);
+
+  /* RGB Hexadecimal */
+  background: #328bf0;
+
+  /* RGB con transparecia */
+  background: rgba(215, 38, 61, 0.5);
+}
+
+/*
+  Hay 17 palabras clave que podemos usar:
+    aqua, black, blue, fuchsia, gray, green, lime, maroon, navy,
+    olive, orange, purple, red, silver, teal, white, yellow
+*/
