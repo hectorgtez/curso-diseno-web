@@ -1,0 +1,25 @@
+@keyframes colores {
+  /* from {background: #9eb3c2;}
+  to {background: #21295c;} */
+  0% {background: #9eb3c2;}
+  25% {background: #1c7293; width: 300px;}
+  50% {background: #065a82; width: 400px;}
+  75% {background: #1b3b6f; width: 300px;}
+  100% {background: #9eb3c2; width: 200px;}
+}
+
+@keyframes movimiento {
+  0% {transform: translate(0px);}
+  50% {transform: translate(500px);}
+  100% {transform: translate(0px);}
+}
+
+.caja {
+  /* animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-name: movimiento; */
+  animation: movimiento 3s ease infinite;
+  background: #9eb3c2;
+  height: 200px;
+  width: 200px;
+}

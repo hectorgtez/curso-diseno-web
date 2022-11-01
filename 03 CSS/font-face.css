@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Mukta";
+  src: url(fonts/Mukta-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Mukta-Bold";
+  src: url(fonts/Mukta-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Mukta-Medium";
+  src: url(fonts/Mukta-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Mukta-Light";
+  src: url(fonts/Mukta-Light.ttf);
+}
+
+body {
+  font-family: 'Oswald';
+}
