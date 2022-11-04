@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+aside {
+  background: #537dca;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  width: 30%;
+}
+
+aside .ad {
+  background: #4264a2;
+  color: white;
+  font-size: 30px;
+  padding: 50px 0;
+  text-align: center;
+}
+
+body {
+  background: black url(img/fondo.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+}
+
+footer {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  display: flex;
+  flex-direction: row;flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 20px 0;
+  width: 100%;
+}
+
+footer .redes-sociales a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: underline;
+}
+
+footer .redes-sociales a:hover {
+  text-decoration: none;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px 0;
+  width: 100%;
+}
+
+header .menu a {
+  color: white;
+  text-decoration: none;
+  margin-right: 40px;
+  font-size: 18px;
+}
+
+header .menu a:hover {
+  text-decoration: underline;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  max-width: 1000px;
+  width: 90%;
+}
+
+.main {
+  background: white;
+  padding: 20px;
+  width: 70%;
+}
+
+.main article h2 {
+  font-size: 32px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.main article p {
+  font-size: 14px;
+  line-height: 27px;
+  margin-bottom: 20px;
+}
+
+.main article .thumb {
+  margin-bottom: 20px;
+}
+
+.main article .thumb img {
+  vertical-align: top;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  aside {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  aside .ad {
+    width: 40%;
+  }
+
+  .main {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer .autor {
+    order: 2;
+  }
+
+  footer .redes-sociales {
+    margin-bottom: 20px;
+    order: 1;
+  }
+
+  header {
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+
+  header .logo {
+    margin-bottom: 20px;
+  }
+
+  header .menu {
+    background: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+  }
+
+  header .menu a {
+    margin: 0 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  aside {
+    display: none;
+  }
+}
