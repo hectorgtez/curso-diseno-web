@@ -9,7 +9,7 @@ aside {
   color: white;
   float: left;
   padding: 20px;
-  width: 300px;
+  width: 30%;
 }
 
 aside .widget {
@@ -56,7 +56,7 @@ footer {
   color: white;
   padding: 15px 0;
   text-align: center;
-  width: 700px;
+  width: 70%;
 }
 
 header {
@@ -91,14 +91,15 @@ header nav ul li a:hover {
 
 .contenedor {
   margin: 20px auto;
+  max-width: 1000px;
   overflow: hidden;
-  width: 1000px;
+  width: 90%;
 }
 
 .main {
   background: white;
   float: left;
-  width: 700px;
+  width: 70%;
 }
 
 .main .imagen {
@@ -122,4 +123,18 @@ header nav ul li a:hover {
 .main .posts article p {
   line-height: 27px;
   margin-bottom: 15px;
+}
+
+@media screen and (max-width: 800px) {
+  .main {
+    width: 100%;
+  }
+
+  aside {
+    width: 100%;
+  }
+
+  footer {
+    width: 100%;
+  }
 }
