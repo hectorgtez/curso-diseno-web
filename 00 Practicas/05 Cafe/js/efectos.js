@@ -28,7 +28,7 @@ $(document).ready(function() {
 
   $("#btn-acerca-de").on("click", function(e) {
     e.preventDefault();
-    $("html, body").animate({ scrollTop: acercaDe-100 }, 500);
+    $("html, body").animate({ scrollTop: acercaDe-200 }, 500);
   });
 
   $("#btn-menu").on("click", function(e) {
