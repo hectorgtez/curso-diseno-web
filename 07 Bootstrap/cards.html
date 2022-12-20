@@ -9,11 +9,220 @@
   </head>
   <body>
 
+    <!-- 
+      Clases que se pueden utilizar para las tarjetas (cards):
+        -> .card                Establece que se trabajara con una tarjeta (card)
+          -> .card-body         Establece cual sera el contenedor del contenido
+            -> .card-title      Establece el texto como un titulo de la card
+            -> .card-subtitle   Establece un subtitulo para la card
+            -> .card-text       Establece el texto de la card
+            -> .card-link       Establece un enlace como boton en la card
+          -> .card-img-top      Eablece una imagen para la card en la parte superior
+          -> .card-img-bottom   Eablece una imagen para la card en la parte inferior
+    -->
+    
     <div class="container">
       <div class="row mt-3">
         <div class="col">
           <div class="card">
-            
+            <div class="card-body">
+              <h1>Encabezado</h1>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Molestias voluptates cupiditate debitis voluptas dolor 
+                delectus at quas earum voluptate. In mollitia ipsam eaque 
+                quisquam ipsa, ex molestiae veritatis atque perferendis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-3">
+        <div class="col-4">
+          <div class="card">
+            <img class="card-img-top" src="img/bg.jpg" alt="">
+            <div class="card-body">
+              <h5 class="car-title">Titulo</h5>
+              <h6 class="car-subtitle text-muted mb-2">Subtitulo</h6>
+              <p class="card-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Tempore fugit illum laborum incidunt, natus iste 
+                dolorem voluptate. Fugit nulla eaque odio ea 
+                iste deserunt alias minus iusto, unde rem eum?
+              </p>
+              <a href="#" class="btn btn-outline-primary">Botón</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="car-title">Titulo</h5>
+              <h6 class="car-subtitle text-muted mb-2">Subtitulo</h6>
+              <p class="card-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Tempore fugit illum laborum incidunt, natus iste 
+                dolorem voluptate. Fugit nulla eaque odio ea 
+                iste deserunt alias minus iusto, unde rem eum?
+              </p>
+              <a href="#" class="btn btn-outline-primary">Botón</a>
+            </div>
+            <img class="card-img-bottom" src="img/bg2.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="col-4">
+          <div class="card">
+            <img class="card-img-top" src="img/bg3.jpg" alt="">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Elemento 1</li>
+              <li class="list-group-item">Elemento 2</li>
+              <li class="list-group-item">Elemento 3</li>
+            </ul>
+            <div class="card-body">
+              <p class="card-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Tempore fugit illum laborum incidunt, natus iste.
+              </p>
+              <a href="#" class="btn btn-outline-primary">Botón</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row my-3">
+        <div class="col-6">
+          <div class="card">
+            <div class="card-header">Encabezado</div>
+            <div class="card-body">
+              <h5 class="card-title">Titulo</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. In, architecto.
+              </p>
+            </div>
+            <div class="card-footer">Pie de pagina</div>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="card text-center">
+            <div class="card-header">Cita</div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <footer class="blockquote-footer">Lorem, ipsum dolor.</footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr class="my-4">
+
+      <div class="row my-3">
+        <div class="col-12">
+          <div class="card">
+            <div class="card-header">
+              <ul class="nav nav-tabs card-header-tabs">
+                <li class="nav-item">
+                  <a href="#" class="nav-link active">Enlace #1</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Enlace #2</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Enlace #3</a>
+                </li>
+              </ul>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Titulo</h5>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <button type="button" class="btn btn-primary">Boton</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 mt-3">
+          <div class="card">
+            <div class="card-header">
+              <ul class="nav nav-pills card-header-pills">
+                <li class="nav-item">
+                  <a href="#" class="nav-link active">Enlace #1</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Enlace #2</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Enlace #3</a>
+                </li>
+              </ul>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Titulo</h5>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <button type="button" class="btn btn-primary">Boton</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4 mt-3">
+          <div class="card bg-primary text-white">
+            <div class="card-header">Encabezado</div>
+            <div class="card-body">
+              <h5 class="card-title">Titulo</h5>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4 mt-3">
+          <div class="card bg-dark text-white">
+            <div class="card-header">Encabezado</div>
+            <div class="card-body">
+              <h5 class="card-title">Titulo</h5>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4 mt-3">
+          <div class="card border-primary">
+            <div class="card-header">Encabezado</div>
+            <div class="card-body">
+              <h5 class="card-title">Titulo</h5>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 my-3">
+          <div class="card-group">
+            <div class="card">
+              <div class="card-header">Encabezado</div>
+              <div class="card-body">
+                <h5 class="card-title">Titulo</h5>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">Encabezado</div>
+              <div class="card-body">
+                <h5 class="card-title">Titulo</h5>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">Encabezado</div>
+              <div class="card-body">
+                <h5 class="card-title">Titulo</h5>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
