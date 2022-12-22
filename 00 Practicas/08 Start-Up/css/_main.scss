@@ -1,0 +1,225 @@
+.main {
+  .caracteristicas {
+    padding: 70px 0;
+    .titulo {
+      color: black;
+      font-family: "Open Sans", Arial, sans-serif;
+      font-size: 32px;
+      font-weight: 300;
+      margin-bottom: 70px;
+      text-align: center;
+    }
+    .caracteristica {
+      text-align: center;
+      .icono {
+        margin-bottom: 30px;
+        vertical-align: top;
+      }
+      .primera_linea {
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 30px;
+      }
+      .parrafo {
+        line-height: 28px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+  .fotos {
+    margin-bottom: 70px;
+    .foto {
+      margin-bottom: 20px;
+      .thumb {
+        img {
+          border-radius: 3px;
+          vertical-align: top;
+          width: 100%;
+        }
+      }
+      .titulo {
+        font-size: 32px;
+        font-weight: 300;
+        line-height: 32px;
+        margin-top: 70px;
+        margin-bottom: 40px;
+        &.azul {
+          color: #4facd3;
+        }
+        &.naranja {
+          color: #ddb146;
+        }
+      }
+      .parrafo {
+        line-height: 28px;
+      }
+      .derecha {
+        text-align: right;
+      }
+    }
+  }
+
+  .clientes {
+    background: #2d353e;
+    padding: 40px 0;
+    .titulo {
+      color: white;
+      font-family: "Open Sans", Arial, sans-serif;
+      font-size: 32px;
+      font-weight: 300;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+    .cliente {
+      text-align: center;
+      a {
+        display: block;
+      }
+    }
+  }
+
+  .precios {
+    background: url("../img/precios-bg.jpg"), #727171;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 0;
+    .titulo {
+      color: white;
+      font-family: "Open Sans", Arial, sans-serif;
+      font-size: 32px;
+      font-weight: 300;
+      margin-bottom: 70px;
+      text-align: center;
+    }
+    .plan {
+      background: white;
+      text-align: center;
+      font-family: "Open Sans", Arial, sans-serif;
+      padding: 50px 0;
+      box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35);
+      .nombre {
+        font-size: 32px;
+        font-weight: 300;
+        line-height: 32px;
+        margin-bottom: 30px;
+      }
+      .precio {
+        font-weight: 300;
+        font-size: 48px;
+        margin-bottom: 30px;
+      }
+      .caracteristicas {
+        list-style: none;
+        margin-bottom: 50px;
+        padding: 0 20px;
+        li {
+          border-bottom: 1px solid #dedede;
+          font-size: 18px;
+          padding: 15px 0;
+        }
+      }
+      .btn {
+        border-radius: 100px;
+        display: inline-block;
+        font-size: 16px;
+        padding: 15px 0;
+        text-align: center;
+        width: 70%;
+      }
+      &.verde {
+        .nombre,
+        .precio {
+          color: #86b773;
+        }
+        .btn {
+          border: 2px solid #86b773;;
+          color: #86b773;
+          &:hover {
+            background: #86b773;
+            color: white;
+          }
+        }
+      }
+      &.active {
+        background: #4c8dce;
+        color: white;
+        .btn {
+          border: 2px solid white;
+          color: white;
+          &:hover {
+            background: white;
+            color: #4c8dce;
+          }
+        }
+      }
+      &.naranja {
+        .nombre,
+        .precio {
+          color: #ddb146;
+        }
+        .btn {
+          border: 2px solid #ddb146;
+          color: #ddb146;
+          &:hover {
+            background: #ddb146;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+
+  .reviews {
+    padding: 70px 0;
+    .titulo {
+      color: #4facd3;
+      font-family: "Open Sans", Arial, sans-serif;
+      font-size: 32px;
+      font-weight: 300;
+      margin-bottom: 70px;
+      text-align: center;
+    }
+    .cliente {
+      margin-bottom: 20px;
+      overflow: hidden;
+      .foto {
+        float: left;
+        text-align: right;
+        width: 20%;
+        img {
+          border-radius: 100%;
+          max-width: 100px;
+          vertical-align: top;
+          width: 100%;
+        }
+      }
+      .review {
+        float: left;
+        margin-top: 20px;
+        padding: 0 30px;
+        width: 80%;
+        .texto {
+          font-size: 18px;
+          line-height: 28px;
+          margin-bottom: 10px;
+        }
+        .nombre {
+          color: #ddb146;
+          font-size: 14px;
+        }
+      }
+      &.derecha {
+        .foto {
+          float: right;
+          text-align: left;
+        }
+        .review {
+          float: right;
+          text-align: right;
+        }
+      }
+    }
+  }
+}
