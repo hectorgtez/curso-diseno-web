@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ebfffb;
+  font-family: Arial;
+}
+
+.contenedor {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  margin: auto;
+  max-width: 700px;
+}
+
+button {
+  background: #ff5858;
+  border: none;
+  border-radius: 10px;
+  color: #ebfffb;
+  cursor: pointer;
+  font-size: 200px;
+  height: 500px;
+  padding: 30px;
+  transition: .3s ease all;
+  width: 500px;
+}
+
+button:hover {
+  background: #ebfffb;
+  box-shadow: 3px 3px 50px rgba(0, 0, 0, .15);
+  color: #ff5858;
+}
